@@ -4,3 +4,6 @@
 *.jar
 *.war
 *.ear
+
+> curl --header "Authentication: OAuth BEzWeQCjdDdcSliaiojNySR4Ht" -F file=@file_to_post.csv "https://opendata.socrata.com/imports2?method=scan"
+
